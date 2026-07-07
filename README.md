@@ -9,7 +9,7 @@ An end-to-end NLP pipeline that monitors live African radio broadcasts (in the D
 * NLP & Extraction: GLiNER (Zero-shot NER), Llama 3.3 (70B)
 
 ## Pipeline Architecture
-![Pipeline Architecture](assests/pipeline_archeticture.png)
+<img src="assests/pipeline_archeticture.png" alt="Pipeline Architecture" width="300"/>
 
 ## Full Technical Report
 You can read the detailed project report, which includes the full methodology, experimental results, and comprehensive limitation analysis, here:
