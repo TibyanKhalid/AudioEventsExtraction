@@ -18,8 +18,7 @@ You can read the detailed project report, which includes the full methodology, e
 ## How to Run (Google Colab)
 This pipeline is optimized for Google Colab. To run it:
 * Open RadioEventsExtractionPipeline.ipynb in Google Colab
-* Click the Key icon (Secrets) on the left-hand sidebar
-* Add the following keys for where needed in the cells:
+* Add the following keys where needed in the cells:
   * GROQ_API_KEY
   * SUNBIRD_API_TOKEN
   * HF_TOKEN
