@@ -4,7 +4,7 @@
 An end-to-end NLP pipeline that monitors live African radio broadcasts (in the DRC, Uganda, and Ethiopia) to automatically extract and structure geopolitical conflict events. 
 
 ## Technologies Used
-* Languages: Python, PyTorch, Hugging Face Transformers, FFmpeg
+* Languages: Python, PyTorch, Hugging Face Transformers
 * Audio Processing: FFmpeg, Silero VAD, PyAnnote (Speaker Diarization)
 * Speech-to-Text (STT): Sunbird AI, Meta MMS-1B-All, Meta MMS-LID-1024
 * Translation & NER: Google Translate API, GLiNER (Zero-shot NER)
