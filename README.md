@@ -4,9 +4,11 @@
 An end-to-end NLP pipeline that monitors live African radio broadcasts (in the DRC, Uganda, and Ethiopia) to automatically extract and structure geopolitical conflict events. 
 
 ## Technologies Used
+* Languages: Python, PyTorch, Hugging Face Transformers, FFmpeg
 * Audio Processing: FFmpeg, Silero VAD, PyAnnote (Speaker Diarization)
-* Speech-to-Text (STT): Sunbird AI, Meta MMS-1B-All
-* NLP & Extraction: GLiNER (Zero-shot NER), Llama 3.3 (70B)
+* Speech-to-Text (STT): Sunbird AI, Meta MMS-1B-All, Meta MMS-LID-1024
+* Translation & NER: Google Translate API, GLiNER (Zero-shot NER)
+*  LLMs: Llama 3.3 (70B) via Groq API
 
 ## Pipeline Architecture
 <img src="assests/pipeline_archeticture.png" alt="Pipeline Architecture" width="400"/>
